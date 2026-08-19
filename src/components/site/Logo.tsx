@@ -1,44 +1,30 @@
 import { Link } from "@tanstack/react-router";
-import { HeartPulse } from "lucide-react";
-import { hospital } from "@/data/hospital";
 import { cn } from "@/lib/utils";
+import logoPng from "@/assets/logo.png";
 
 export function Logo({ className, inverted = false }: { className?: string; inverted?: boolean }) {
   return (
     <Link
       to="/"
-      className={cn("flex items-center gap-3", className)}
-      aria-label={`${hospital.name} — home`}
+      className={cn("flex items-center shrink-0 self-center", className)}
+      aria-label="Sree Pediatric & General Hospital — home"
+      style={{ display: "flex", alignItems: "center" }}
     >
-      <span
+      <img
+        src={logoPng}
+        alt="Sree Pediatric & General Hospital"
         className={cn(
-          "flex size-11 shrink-0 items-center justify-center rounded-2xl",
-          inverted ? "bg-primary-foreground/15" : "bg-blue-gradient shadow-soft",
+          "h-11 w-auto object-contain md:h-13 lg:h-15 transition-all shrink-0 self-center",
+          inverted ? "brightness-0 invert" : ""
         )}
-      >
-        <HeartPulse
-          className={cn("size-6", inverted ? "text-primary-foreground" : "text-primary-foreground")}
-          aria-hidden="true"
-        />
-      </span>
-      <span className="leading-tight">
-        <span
-          className={cn(
-            "block text-[0.95rem] font-extrabold tracking-tight sm:text-base",
-            inverted ? "text-primary-foreground" : "text-primary-deep",
-          )}
-        >
-          Sree Pediatric <span className="text-pink">&amp;</span> General Hospital
-        </span>
-        <span
-          className={cn(
-            "block text-[0.7rem] font-medium",
-            inverted ? "text-primary-foreground/70" : "text-muted-foreground",
-          )}
-        >
-          {hospital.tagline}
-        </span>
-      </span>
+        style={{
+          maxHeight: "64px",
+          width: "auto",
+          display: "block",
+          objectFit: "contain",
+          aspectRatio: "auto"
+        }}
+      />
     </Link>
   );
 }

@@ -23,11 +23,5 @@ export function FeatureList({ items }: { items: { title: string; text: string }[
 }
 
 export function Disclaimer() {
-  return (
-    <div className="container-page">
-      <p className="rounded-2xl border border-border bg-muted px-5 py-4 text-sm text-muted-foreground">
-        {medicalDisclaimer}
-      </p>
-    </div>
-  );
+  return null;
 }

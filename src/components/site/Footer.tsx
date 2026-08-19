@@ -9,7 +9,6 @@ const quickLinks = [
   { label: "Doctors", to: "/doctors" },
   { label: "Services", to: "/services" },
   { label: "Facilities", to: "/facilities" },
-  { label: "Health Tips", to: "/health-tips" },
   { label: "Contact", to: "/contact" },
   { label: "Appointment", to: "/appointment" },
 ] as const;

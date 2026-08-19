@@ -10,33 +10,180 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AppointmentRouteImport } from './routes/appointment'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DiabetesCareRouteImport } from './routes/diabetes-care'
+import { Route as DoctorsRouteImport } from './routes/doctors'
+import { Route as FacilitiesRouteImport } from './routes/facilities'
+import { Route as GeneralMedicineRouteImport } from './routes/general-medicine'
+import { Route as NeonatalCareRouteImport } from './routes/neonatal-care'
+import { Route as PediatricCareRouteImport } from './routes/pediatric-care'
+import { Route as ServicesRouteImport } from './routes/services'
+import { Route as HealthTipsSlugRouteImport } from './routes/health-tips.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppointmentRoute = AppointmentRouteImport.update({
+  id: '/appointment',
+  path: '/appointment',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DiabetesCareRoute = DiabetesCareRouteImport.update({
+  id: '/diabetes-care',
+  path: '/diabetes-care',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DoctorsRoute = DoctorsRouteImport.update({
+  id: '/doctors',
+  path: '/doctors',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FacilitiesRoute = FacilitiesRouteImport.update({
+  id: '/facilities',
+  path: '/facilities',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GeneralMedicineRoute = GeneralMedicineRouteImport.update({
+  id: '/general-medicine',
+  path: '/general-medicine',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NeonatalCareRoute = NeonatalCareRouteImport.update({
+  id: '/neonatal-care',
+  path: '/neonatal-care',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PediatricCareRoute = PediatricCareRouteImport.update({
+  id: '/pediatric-care',
+  path: '/pediatric-care',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesRoute = ServicesRouteImport.update({
+  id: '/services',
+  path: '/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HealthTipsSlugRoute = HealthTipsSlugRouteImport.update({
+  id: '/health-tips/$slug',
+  path: '/health-tips/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/appointment': typeof AppointmentRoute
+  '/contact': typeof ContactRoute
+  '/diabetes-care': typeof DiabetesCareRoute
+  '/doctors': typeof DoctorsRoute
+  '/facilities': typeof FacilitiesRoute
+  '/general-medicine': typeof GeneralMedicineRoute
+  '/neonatal-care': typeof NeonatalCareRoute
+  '/pediatric-care': typeof PediatricCareRoute
+  '/services': typeof ServicesRoute
+  '/health-tips/$slug': typeof HealthTipsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/appointment': typeof AppointmentRoute
+  '/contact': typeof ContactRoute
+  '/diabetes-care': typeof DiabetesCareRoute
+  '/doctors': typeof DoctorsRoute
+  '/facilities': typeof FacilitiesRoute
+  '/general-medicine': typeof GeneralMedicineRoute
+  '/neonatal-care': typeof NeonatalCareRoute
+  '/pediatric-care': typeof PediatricCareRoute
+  '/services': typeof ServicesRoute
+  '/health-tips/$slug': typeof HealthTipsSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/appointment': typeof AppointmentRoute
+  '/contact': typeof ContactRoute
+  '/diabetes-care': typeof DiabetesCareRoute
+  '/doctors': typeof DoctorsRoute
+  '/facilities': typeof FacilitiesRoute
+  '/general-medicine': typeof GeneralMedicineRoute
+  '/neonatal-care': typeof NeonatalCareRoute
+  '/pediatric-care': typeof PediatricCareRoute
+  '/services': typeof ServicesRoute
+  '/health-tips/$slug': typeof HealthTipsSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/appointment'
+    | '/contact'
+    | '/diabetes-care'
+    | '/doctors'
+    | '/facilities'
+    | '/general-medicine'
+    | '/neonatal-care'
+    | '/pediatric-care'
+    | '/services'
+    | '/health-tips/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/about'
+    | '/appointment'
+    | '/contact'
+    | '/diabetes-care'
+    | '/doctors'
+    | '/facilities'
+    | '/general-medicine'
+    | '/neonatal-care'
+    | '/pediatric-care'
+    | '/services'
+    | '/health-tips/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/appointment'
+    | '/contact'
+    | '/diabetes-care'
+    | '/doctors'
+    | '/facilities'
+    | '/general-medicine'
+    | '/neonatal-care'
+    | '/pediatric-care'
+    | '/services'
+    | '/health-tips/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  AppointmentRoute: typeof AppointmentRoute
+  ContactRoute: typeof ContactRoute
+  DiabetesCareRoute: typeof DiabetesCareRoute
+  DoctorsRoute: typeof DoctorsRoute
+  FacilitiesRoute: typeof FacilitiesRoute
+  GeneralMedicineRoute: typeof GeneralMedicineRoute
+  NeonatalCareRoute: typeof NeonatalCareRoute
+  PediatricCareRoute: typeof PediatricCareRoute
+  ServicesRoute: typeof ServicesRoute
+  HealthTipsSlugRoute: typeof HealthTipsSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +195,99 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/appointment': {
+      id: '/appointment'
+      path: '/appointment'
+      fullPath: '/appointment'
+      preLoaderRoute: typeof AppointmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/diabetes-care': {
+      id: '/diabetes-care'
+      path: '/diabetes-care'
+      fullPath: '/diabetes-care'
+      preLoaderRoute: typeof DiabetesCareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/doctors': {
+      id: '/doctors'
+      path: '/doctors'
+      fullPath: '/doctors'
+      preLoaderRoute: typeof DoctorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/facilities': {
+      id: '/facilities'
+      path: '/facilities'
+      fullPath: '/facilities'
+      preLoaderRoute: typeof FacilitiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/general-medicine': {
+      id: '/general-medicine'
+      path: '/general-medicine'
+      fullPath: '/general-medicine'
+      preLoaderRoute: typeof GeneralMedicineRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/neonatal-care': {
+      id: '/neonatal-care'
+      path: '/neonatal-care'
+      fullPath: '/neonatal-care'
+      preLoaderRoute: typeof NeonatalCareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pediatric-care': {
+      id: '/pediatric-care'
+      path: '/pediatric-care'
+      fullPath: '/pediatric-care'
+      preLoaderRoute: typeof PediatricCareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services': {
+      id: '/services'
+      path: '/services'
+      fullPath: '/services'
+      preLoaderRoute: typeof ServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/health-tips/$slug': {
+      id: '/health-tips/$slug'
+      path: '/health-tips/$slug'
+      fullPath: '/health-tips/$slug'
+      preLoaderRoute: typeof HealthTipsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  AppointmentRoute: AppointmentRoute,
+  ContactRoute: ContactRoute,
+  DiabetesCareRoute: DiabetesCareRoute,
+  DoctorsRoute: DoctorsRoute,
+  FacilitiesRoute: FacilitiesRoute,
+  GeneralMedicineRoute: GeneralMedicineRoute,
+  NeonatalCareRoute: NeonatalCareRoute,
+  PediatricCareRoute: PediatricCareRoute,
+  ServicesRoute: ServicesRoute,
+  HealthTipsSlugRoute: HealthTipsSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

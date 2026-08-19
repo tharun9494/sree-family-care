@@ -52,42 +52,42 @@
 }
 
 :root {
-  --radius: 1.25rem;
+  --radius: 1rem;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.24 0.035 259);
+  --foreground: oklch(0.25 0.03 260);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.24 0.035 259);
+  --card-foreground: oklch(0.25 0.03 260);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.24 0.035 259);
-  --primary: oklch(0.464 0.166 262);
+  --popover-foreground: oklch(0.25 0.03 260);
+  --primary: oklch(0.58 0.21 12); /* Sree Crimson Pink `#d9255a` */
   --primary-foreground: oklch(0.99 0.004 250);
-  --primary-deep: oklch(0.375 0.152 263);
-  --primary-soft: oklch(0.957 0.019 250);
-  --secondary: oklch(0.957 0.019 250);
-  --secondary-foreground: oklch(0.375 0.152 263);
-  --muted: oklch(0.972 0.008 250);
-  --muted-foreground: oklch(0.52 0.03 258);
-  --accent: oklch(0.957 0.019 250);
-  --accent-foreground: oklch(0.375 0.152 263);
-  --teal: oklch(0.68 0.17 145);
+  --primary-deep: oklch(0.25 0.03 260); /* Deep Slate/Blue-Grey `#1e293b` */
+  --primary-soft: oklch(0.975 0.01 12); /* Soft rose tint `#fff1f2` */
+  --secondary: oklch(0.975 0.01 12);
+  --secondary-foreground: oklch(0.25 0.03 260);
+  --muted: oklch(0.98 0.005 250);
+  --muted-foreground: oklch(0.55 0.02 260);
+  --accent: oklch(0.975 0.01 12);
+  --accent-foreground: oklch(0.25 0.03 260);
+  --teal: oklch(0.70 0.19 150); /* Custom Medical Green `#10b981` */
   --teal-foreground: oklch(0.99 0.004 250);
-  --pink: oklch(0.625 0.213 5);
+  --pink: oklch(0.58 0.21 12);
   --pink-foreground: oklch(0.99 0.004 250);
-  --sun: oklch(0.771 0.152 70);
+  --sun: oklch(0.77 0.15 70);
   --sun-foreground: oklch(0.28 0.05 70);
-  --surface: oklch(0.985 0.006 250);
+  --surface: oklch(0.985 0.005 250);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.99 0.004 250);
-  --border: oklch(0.925 0.014 252);
-  --input: oklch(0.925 0.014 252);
-  --ring: oklch(0.464 0.166 262);
+  --border: oklch(0.94 0.01 250);
+  --input: oklch(0.94 0.01 250);
+  --ring: oklch(0.58 0.21 12);
   --gradient-hero: linear-gradient(
     160deg,
-    oklch(0.985 0.012 250) 0%,
-    oklch(0.957 0.019 250) 55%,
-    oklch(1 0 0) 100%
+    oklch(0.99 0.005 250) 0%,
+    oklch(0.98 0.007 260) 60%,
+    oklch(0.99 0.004 250) 100%
   );
-  --gradient-blue: linear-gradient(135deg, var(--primary-deep), var(--primary));
+  --gradient-blue: linear-gradient(135deg, oklch(0.62 0.22 12), oklch(0.55 0.18 12));
 }
 
 .dark {
