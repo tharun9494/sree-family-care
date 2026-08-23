@@ -49,11 +49,11 @@ function ServicesPage() {
               We provide standard vaccine recommendations and administration services at Sree Hospital. However, we do not publish a generic vaccination schedule online. Every child's medical history, developmental pace, and immunization profile are unique.
             </p>
             <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
-              Appropriate vaccine timelines should be reviewed and confirmed directly with Dr. Y. Subrahmanyam during an in-person consultation to ensure clinical safety and efficacy.
+              Appropriate vaccine timelines should be reviewed and confirmed directly with Dr. S. Subrahmanyam during an in-person consultation to ensure clinical safety and efficacy.
             </p>
             <div className="mt-6">
               <Button asChild variant="hero">
-                <Link to="/appointment" search={{ doctor: "Dr. Y. Subrahmanyam" } as never}>Book Vaccine Consultation</Link>
+                <Link to="/appointment" search={{ doctor: "Dr. S. Subrahmanyam" } as never}>Book Vaccine Consultation</Link>
               </Button>
             </div>
           </Reveal>

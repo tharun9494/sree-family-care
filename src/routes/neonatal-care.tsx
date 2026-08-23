@@ -11,7 +11,7 @@ export const Route = createFileRoute("/neonatal-care")({
   head: () => ({
     meta: [
       { title: `Neonatal Care - Newborn Specialist in Madanapalle - ${hospital.name}` },
-      { name: "description", content: `Specialized monitoring, weight tracking, and feeding reviews for newborn babies. Consult with Neonatal Specialist Dr. Y. Subrahmanyam.` }
+      { name: "description", content: `Specialized monitoring, weight tracking, and feeding reviews for newborn babies. Consult with Neonatal Specialist Dr. S. Subrahmanyam.` }
     ]
   }),
   component: NeonatalCarePage,
@@ -46,7 +46,7 @@ function NeonatalCarePage() {
               The neonatal period (first 28 days of life) represents a phase of significant adaptation. Newborn babies have delicate immune systems, sensitive digestive tracks, and require steady temperature management.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              At Sree Hospital, <strong>Dr. Y. Subrahmanyam</strong> helps parents monitor their newborn's development, answering questions about stool frequencies, hydration levels, jaundice indicators, and sleep safety. We aim to guide you through these early stages with clear, stress-free clinical advice.
+              At Sree Hospital, <strong>Dr. S. Subrahmanyam</strong> helps parents monitor their newborn's development, answering questions about stool frequencies, hydration levels, jaundice indicators, and sleep safety. We aim to guide you through these early stages with clear, stress-free clinical advice.
             </p>
           </Reveal>
 
@@ -62,7 +62,7 @@ function NeonatalCarePage() {
 
           <Reveal className="pt-4">
             <Button asChild variant="pink">
-              <Link to="/appointment" search={{ doctor: "Dr. Y. Subrahmanyam" } as never}>Book Newborn Consult</Link>
+              <Link to="/appointment" search={{ doctor: "Dr. S. Subrahmanyam" } as never}>Book Newborn Consult</Link>
             </Button>
           </Reveal>
         </div>

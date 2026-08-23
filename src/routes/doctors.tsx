@@ -10,7 +10,7 @@ export const Route = createFileRoute("/doctors")({
   head: () => ({
     meta: [
       { title: `Our Consulting Doctors - ${hospital.name}` },
-      { name: "description", content: `Consult with Dr. Y. Subrahmanyam (Children & Neonatal Specialist) and Dr. J. Revathi (General Physician & Diabetes Care) in Madanapalle.` }
+      { name: "description", content: `Consult with Dr. S. Subrahmanyam (Children & Neonatal Specialist) and Dr. J. Revathi (General Physician & Diabetes Care) in Madanapalle.` }
     ]
   }),
   component: DoctorsPage,

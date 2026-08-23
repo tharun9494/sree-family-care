@@ -20,7 +20,7 @@ export const Route = createFileRoute("/facilities")({
 function FacilitiesPage() {
   const facilityItems = [
     { title: "OPD Consultation Cabins", desc: "Private, clean consultation rooms configured for patient comfort and silent consultations." },
-    { title: "Specialized Pediatric Care Equipment", desc: "Weight tables, baby meters, and child-friendly diagnostic tools used by Dr. Y. Subrahmanyam." },
+    { title: "Specialized Pediatric Care Equipment", desc: "Weight tables, baby meters, and child-friendly diagnostic tools used by Dr. S. Subrahmanyam." },
     { title: "Neonatal Check-Up Station", desc: "Equipped to review newborn weights, check infant jaundice levels, and monitor neonatal reflexes." },
     { title: "Air-Conditioned Waiting Lounge", desc: "Clean seating area with drinking water facilities and proper ventilation to reduce cross-infection risk." },
     { title: "Baby Feeding Area", desc: "A private space for mothers to feed their infants comfortably between checkups." },

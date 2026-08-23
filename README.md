@@ -544,7 +544,7 @@ Doctor Card 1:
 
 
 
-Dr. Y. Subrahmanyam
+Dr. S. Subrahmanyam
 
 
 

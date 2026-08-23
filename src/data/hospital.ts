@@ -52,12 +52,12 @@ export type Doctor = {
 
 export const doctors: Doctor[] = [
   {
-    slug: "dr-y-subrahmanyam",
-    name: "Dr. Y. Subrahmanyam",
+    slug: "dr-s-subrahmanyam",
+    name: "Dr. S. Subrahmanyam",
     qualifications: "M.B.B.S., N-Dch",
     role: "Children & Neonatal Specialist",
     description:
-      "Dr. Y. Subrahmanyam consults for children's health and newborn care at Sree Pediatric & General Hospital, with a calm, parent-friendly approach to pediatric and neonatal consultation.",
+      "Dr. S. Subrahmanyam consults for children's health and newborn care at Sree Pediatric & General Hospital, with a calm, parent-friendly approach to pediatric and neonatal consultation.",
     focus: ["Pediatric consultation", "Neonatal care", "Child wellness", "Vaccination guidance"],
   },
   {

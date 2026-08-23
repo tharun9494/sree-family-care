@@ -11,7 +11,7 @@ export const Route = createFileRoute("/pediatric-care")({
   head: () => ({
     meta: [
       { title: `Pediatric Care - Children's Doctor in Madanapalle - ${hospital.name}` },
-      { name: "description", content: `Quality pediatric care for children's growth, illness, and vaccinations. Consult with Pediatric specialist Dr. Y. Subrahmanyam.` }
+      { name: "description", content: `Quality pediatric care for children's growth, illness, and vaccinations. Consult with Pediatric specialist Dr. S. Subrahmanyam.` }
     ]
   }),
   component: PediatricCarePage,
@@ -43,7 +43,7 @@ function PediatricCarePage() {
               Clinical attention for children's general health
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Children's bodies respond differently to infections and environmental changes than adult bodies. At Sree Pediatric & General Hospital, our pediatric consultation room, led by <strong>Dr. Y. Subrahmanyam (M.B.B.S., N-Dch)</strong>, provides a quiet space for children to be examined.
+              Children's bodies respond differently to infections and environmental changes than adult bodies. At Sree Pediatric & General Hospital, our pediatric consultation room, led by <strong>Dr. S. Subrahmanyam (M.B.B.S., N-Dch)</strong>, provides a quiet space for children to be examined.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               We monitor parameters like height, weight, and key developmental metrics to identify nutritional or physical delays early. We also review standard vaccination plans during childhood visits, explaining each option to parents.
@@ -62,7 +62,7 @@ function PediatricCarePage() {
 
           <Reveal className="pt-4">
             <Button asChild variant="hero">
-              <Link to="/appointment" search={{ doctor: "Dr. Y. Subrahmanyam" } as never}>Book Pediatric Consult</Link>
+              <Link to="/appointment" search={{ doctor: "Dr. S. Subrahmanyam" } as never}>Book Pediatric Consult</Link>
             </Button>
           </Reveal>
         </div>

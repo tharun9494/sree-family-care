@@ -30,7 +30,7 @@ function Index() {
     },
     {
       title: "Neonatal & Child Specialist",
-      text: "Dr. Y. Subrahmanyam offers expert guidance on newborn health, vaccines, and pediatric developmental check-ups."
+      text: "Dr. S. Subrahmanyam offers expert guidance on newborn health, vaccines, and pediatric developmental check-ups."
     },
     {
       title: "Adult General & Diabetes Care",
@@ -459,7 +459,7 @@ function Index() {
                   Children's health, growth & vaccine guidance
                 </h2>
                 <p className="text-sm text-muted-foreground mt-4 leading-relaxed max-w-xl">
-                  Consult for general children's health, standard vaccinations, growth metrics, and common childhood infections. Led by our Children & Neonatal Specialist, Dr. Y. Subrahmanyam. We focus on a gentle, parent-friendly approach.
+                  Consult for general children's health, standard vaccinations, growth metrics, and common childhood infections. Led by our Children & Neonatal Specialist, Dr. S. Subrahmanyam. We focus on a gentle, parent-friendly approach.
                 </p>
                 <div className="pt-4 flex gap-3">
                   <Button asChild variant="hero">

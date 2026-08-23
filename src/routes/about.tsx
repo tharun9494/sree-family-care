@@ -70,7 +70,7 @@ function AboutPage() {
               At Sree Pediatric & General Hospital, we prioritize clinical results and patient convenience. Located near NTR Circle in Madanapalle, we address everyday wellness needs for patients of all ages, supporting child vaccinations, newborn reviews, adult general medicine, and chronic diabetes monitoring.
             </p>
             <p className="text-base text-muted-foreground leading-relaxed">
-              We understand that visiting a doctor can be stressful, particularly for parents with infants. That is why our Children & Neonatal Specialist, Dr. Y. Subrahmanyam, maintains a quiet, parent-friendly consult room, while Dr. J. Revathi ensures detailed, patient explanations for adult medical evaluations.
+              We understand that visiting a doctor can be stressful, particularly for parents with infants. That is why our Children & Neonatal Specialist, Dr. S. Subrahmanyam, maintains a quiet, parent-friendly consult room, while Dr. J. Revathi ensures detailed, patient explanations for adult medical evaluations.
             </p>
           </Reveal>
         </div>
